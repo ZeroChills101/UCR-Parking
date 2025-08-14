@@ -26,7 +26,7 @@ fun MainNavigation() {
     ) { innerPadding ->
         NavHost(navController, startDestination = "home", Modifier.padding(innerPadding)) {
             composable("home") { HomeScreen() }
-            composable("profile") { ProfileScreen() }
+            composable("profi") { ProfileScreen() }
             composable("settings") { SettingsScreen() }
         }
     }
