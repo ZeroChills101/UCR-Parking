@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+.idea/
+*.iml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Log files
+*.log
+
+# Generated files
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files (VERY IMPORTANT — don’t upload signing keys)
+*.jks
+*.keystore
+
+# Misc
+.DS_Store
+Thumbs.db
